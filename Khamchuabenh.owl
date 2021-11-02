@@ -40,6 +40,15 @@
     
 
 
+    <!-- http://www.semanticweb.org/zjm/ontologies/2021/10/untitled-ontology-3#gom_cac_loai_thuoc -->
+
+    <owl:ObjectProperty rdf:about="http://www.semanticweb.org/zjm/ontologies/2021/10/untitled-ontology-3#gom_cac_loai_thuoc">
+        <rdfs:domain rdf:resource="http://www.semanticweb.org/zjm/ontologies/2021/10/untitled-ontology-3#Don_thuoc"/>
+        <rdfs:range rdf:resource="http://www.semanticweb.org/zjm/ontologies/2021/10/untitled-ontology-3#Thuoc"/>
+    </owl:ObjectProperty>
+    
+
+
     <!-- http://www.semanticweb.org/zjm/ontologies/2021/10/untitled-ontology-3#ke_don -->
 
     <owl:ObjectProperty rdf:about="http://www.semanticweb.org/zjm/ontologies/2021/10/untitled-ontology-3#ke_don">
@@ -127,6 +136,15 @@
 
     <owl:DatatypeProperty rdf:about="http://www.semanticweb.org/zjm/ontologies/2021/10/untitled-ontology-3#ten">
         <rdfs:domain rdf:resource="http://www.semanticweb.org/zjm/ontologies/2021/10/untitled-ontology-3#Con_nguoi"/>
+        <rdfs:range rdf:resource="http://www.w3.org/2001/XMLSchema#string"/>
+    </owl:DatatypeProperty>
+    
+
+
+    <!-- http://www.semanticweb.org/zjm/ontologies/2021/10/untitled-ontology-3#ten_thuoc -->
+
+    <owl:DatatypeProperty rdf:about="http://www.semanticweb.org/zjm/ontologies/2021/10/untitled-ontology-3#ten_thuoc">
+        <rdfs:domain rdf:resource="http://www.semanticweb.org/zjm/ontologies/2021/10/untitled-ontology-3#Thuoc"/>
         <rdfs:range rdf:resource="http://www.w3.org/2001/XMLSchema#string"/>
     </owl:DatatypeProperty>
     
@@ -409,10 +427,10 @@
     <owl:NamedIndividual rdf:about="http://www.semanticweb.org/zjm/ontologies/2021/10/untitled-ontology-3#BS02">
         <rdf:type rdf:resource="http://www.semanticweb.org/zjm/ontologies/2021/10/untitled-ontology-3#Bac_si"/>
         <dieu_tri_cho rdf:resource="http://www.semanticweb.org/zjm/ontologies/2021/10/untitled-ontology-3#BN01"/>
-        <ten rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Tran Van Nam</ten>
         <dia_chi rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Ha Noi</dia_chi>
         <nam_sinh rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">1980</nam_sinh>
         <sdt rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">19001234</sdt>
+        <ten rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Tran Van Nam</ten>
         <trinh_do rdf:datatype="http://www.w3.org/2001/XMLSchema#string">giao su</trinh_do>
     </owl:NamedIndividual>
     
@@ -423,10 +441,10 @@
     <owl:NamedIndividual rdf:about="http://www.semanticweb.org/zjm/ontologies/2021/10/untitled-ontology-3#BS03">
         <rdf:type rdf:resource="http://www.semanticweb.org/zjm/ontologies/2021/10/untitled-ontology-3#Bac_si"/>
         <dieu_tri_cho rdf:resource="http://www.semanticweb.org/zjm/ontologies/2021/10/untitled-ontology-3#BN03"/>
-        <ten rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Nguyen Van Trieu</ten>
         <dia_chi rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Ha Noi</dia_chi>
         <nam_sinh rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">1970</nam_sinh>
         <sdt rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">19001234</sdt>
+        <ten rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Nguyen Van Trieu</ten>
         <trinh_do rdf:datatype="http://www.w3.org/2001/XMLSchema#string">giao su</trinh_do>
     </owl:NamedIndividual>
     
@@ -437,10 +455,10 @@
     <owl:NamedIndividual rdf:about="http://www.semanticweb.org/zjm/ontologies/2021/10/untitled-ontology-3#BS04">
         <rdf:type rdf:resource="http://www.semanticweb.org/zjm/ontologies/2021/10/untitled-ontology-3#Bac_si"/>
         <kham_benh_cho rdf:resource="http://www.semanticweb.org/zjm/ontologies/2021/10/untitled-ontology-3#BN04"/>
-        <ten rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Cao Minh Tuan</ten>
         <dia_chi rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Ha Noi</dia_chi>
         <nam_sinh rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">1960</nam_sinh>
         <sdt rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">19001234</sdt>
+        <ten rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Cao Minh Tuan</ten>
         <trinh_do rdf:datatype="http://www.w3.org/2001/XMLSchema#string">giao su</trinh_do>
     </owl:NamedIndividual>
     
@@ -451,11 +469,21 @@
     <owl:NamedIndividual rdf:about="http://www.semanticweb.org/zjm/ontologies/2021/10/untitled-ontology-3#BS05">
         <rdf:type rdf:resource="http://www.semanticweb.org/zjm/ontologies/2021/10/untitled-ontology-3#Bac_si"/>
         <kham_benh_cho rdf:resource="http://www.semanticweb.org/zjm/ontologies/2021/10/untitled-ontology-3#BN05"/>
-        <ten rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Do Van Viet</ten>
         <dia_chi rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Ha Noi</dia_chi>
         <nam_sinh rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">1969</nam_sinh>
         <sdt rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">19001234</sdt>
+        <ten rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Do Van Viet</ten>
         <trinh_do rdf:datatype="http://www.w3.org/2001/XMLSchema#string">giao su</trinh_do>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.semanticweb.org/zjm/ontologies/2021/10/untitled-ontology-3#DT01 -->
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/zjm/ontologies/2021/10/untitled-ontology-3#DT01">
+        <rdf:type rdf:resource="http://www.semanticweb.org/zjm/ontologies/2021/10/untitled-ontology-3#Don_thuoc"/>
+        <gom_cac_loai_thuoc rdf:resource="http://www.semanticweb.org/zjm/ontologies/2021/10/untitled-ontology-3#Thuoc1"/>
+        <gom_cac_loai_thuoc rdf:resource="http://www.semanticweb.org/zjm/ontologies/2021/10/untitled-ontology-3#Thuoc2"/>
     </owl:NamedIndividual>
     
 
@@ -464,10 +492,10 @@
 
     <owl:NamedIndividual rdf:about="http://www.semanticweb.org/zjm/ontologies/2021/10/untitled-ontology-3#NV01">
         <rdf:type rdf:resource="http://www.semanticweb.org/zjm/ontologies/2021/10/untitled-ontology-3#Nhan_vien"/>
-        <ten rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Do Viet Minh</ten>
         <dia_chi rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Ha Noi</dia_chi>
         <nam_sinh rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">1969</nam_sinh>
-        <sdt rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">19001234</sdt> 
+        <sdt rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">19001234</sdt>
+        <ten rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Do Viet Minh</ten>
     </owl:NamedIndividual>
     
 
@@ -476,10 +504,10 @@
 
     <owl:NamedIndividual rdf:about="http://www.semanticweb.org/zjm/ontologies/2021/10/untitled-ontology-3#NV02">
         <rdf:type rdf:resource="http://www.semanticweb.org/zjm/ontologies/2021/10/untitled-ontology-3#Nhan_vien"/>
-        <ten rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Tran thi thu</ten>
         <dia_chi rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Ha Noi</dia_chi>
         <nam_sinh rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">1969</nam_sinh>
         <sdt rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">19001234</sdt>
+        <ten rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Tran thi thu</ten>
     </owl:NamedIndividual>
     
 
@@ -488,10 +516,10 @@
 
     <owl:NamedIndividual rdf:about="http://www.semanticweb.org/zjm/ontologies/2021/10/untitled-ontology-3#NV03">
         <rdf:type rdf:resource="http://www.semanticweb.org/zjm/ontologies/2021/10/untitled-ontology-3#Nhan_vien"/>
-        <ten rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Do Tra My</ten>
         <dia_chi rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Ha Noi</dia_chi>
         <nam_sinh rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">1969</nam_sinh>
         <sdt rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">19001234</sdt>
+        <ten rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Do Tra My</ten>
     </owl:NamedIndividual>
     
 
@@ -500,10 +528,10 @@
 
     <owl:NamedIndividual rdf:about="http://www.semanticweb.org/zjm/ontologies/2021/10/untitled-ontology-3#NV04">
         <rdf:type rdf:resource="http://www.semanticweb.org/zjm/ontologies/2021/10/untitled-ontology-3#Nhan_vien"/>
-        <ten rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Pham Thu Trang</ten>
         <dia_chi rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Ha Noi</dia_chi>
         <nam_sinh rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">1969</nam_sinh>
         <sdt rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">19001234</sdt>
+        <ten rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Pham Thu Trang</ten>
     </owl:NamedIndividual>
     
 
@@ -512,10 +540,28 @@
 
     <owl:NamedIndividual rdf:about="http://www.semanticweb.org/zjm/ontologies/2021/10/untitled-ontology-3#NV05">
         <rdf:type rdf:resource="http://www.semanticweb.org/zjm/ontologies/2021/10/untitled-ontology-3#Nhan_vien"/>
-        <ten rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Nguyen Tien Minh</ten>
         <dia_chi rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Ha Noi</dia_chi>
         <nam_sinh rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">1969</nam_sinh>
         <sdt rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">19001234</sdt>
+        <ten rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Nguyen Tien Minh</ten>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.semanticweb.org/zjm/ontologies/2021/10/untitled-ontology-3#Thuoc1 -->
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/zjm/ontologies/2021/10/untitled-ontology-3#Thuoc1">
+        <rdf:type rdf:resource="http://www.semanticweb.org/zjm/ontologies/2021/10/untitled-ontology-3#Thuoc"/>
+        <ten_thuoc rdf:datatype="http://www.w3.org/2001/XMLSchema#string">aspirin</ten_thuoc>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.semanticweb.org/zjm/ontologies/2021/10/untitled-ontology-3#Thuoc2 -->
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/zjm/ontologies/2021/10/untitled-ontology-3#Thuoc2">
+        <rdf:type rdf:resource="http://www.semanticweb.org/zjm/ontologies/2021/10/untitled-ontology-3#Thuoc"/>
+        <ten_thuoc rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Bisepton</ten_thuoc>
     </owl:NamedIndividual>
 </rdf:RDF>
 
