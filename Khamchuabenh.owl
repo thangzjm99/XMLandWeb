@@ -94,6 +94,15 @@
     
 
 
+    <!-- http://www.semanticweb.org/zjm/ontologies/2021/10/untitled-ontology-3#tac_gia_cua -->
+
+    <owl:ObjectProperty rdf:about="http://www.semanticweb.org/zjm/ontologies/2021/10/untitled-ontology-3#tac_gia_cua">
+        <rdfs:domain rdf:resource="http://www.semanticweb.org/zjm/ontologies/2021/10/untitled-ontology-3#Nhan_vien_y_te"/>
+        <rdfs:range rdf:resource="http://www.semanticweb.org/zjm/ontologies/2021/10/untitled-ontology-3#Dao_tao_va_nghien_cuu_khoa_hoc"/>
+    </owl:ObjectProperty>
+    
+
+
     <!-- 
     ///////////////////////////////////////////////////////////////////////////////////////
     //
@@ -604,10 +613,77 @@
     
 
 
+    <!-- http://www.semanticweb.org/zjm/ontologies/2021/10/untitled-ontology-3#BCNhienCuuKhoaHoc01 -->
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/zjm/ontologies/2021/10/untitled-ontology-3#BCNhienCuuKhoaHoc01">
+        <rdf:type rdf:resource="http://www.semanticweb.org/zjm/ontologies/2021/10/untitled-ontology-3#Dao_tao_va_nghien_cuu_khoa_hoc"/>
+        <ma_de_tai rdf:datatype="http://www.w3.org/2001/XMLSchema#int">1</ma_de_tai>
+        <noi_dung_de_tai rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Đánh giá hiệu quả xác định đái tháo đường type 2 bằng định lượng Glucose máu đói và HbA1c bằng phương pháp sắc ký lỏng cao áp tại khoa Hóa sinh Bệnh viện</noi_dung_de_tai>
+        <ten_de_tai rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Nghiên cứu kết quả xác định đái tháo đường type 2 bằng định lượng Glucose máu đói và HbA1c bằng phương pháp sắc ký lỏng cao áp tại Bệnh viện</ten_de_tai>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.semanticweb.org/zjm/ontologies/2021/10/untitled-ontology-3#BCNhienCuuKhoaHoc02 -->
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/zjm/ontologies/2021/10/untitled-ontology-3#BCNhienCuuKhoaHoc02">
+        <rdf:type rdf:resource="http://www.semanticweb.org/zjm/ontologies/2021/10/untitled-ontology-3#Dao_tao_va_nghien_cuu_khoa_hoc"/>
+        <ma_de_tai rdf:datatype="http://www.w3.org/2001/XMLSchema#int">2</ma_de_tai>
+        <noi_dung_de_tai rdf:datatype="http://www.w3.org/2001/XMLSchema#string">1. Mô tả đặc điểm lâm sàng, cận lâm sàng của người bệnh thoát vị bẹn tại Bệnh viện năm 2021.
+
+2. Kết quả áp dụng phương pháp Lichtenstein trong điều trị thoát vị bẹn tại Bệnh viện  năm 2021.</noi_dung_de_tai>
+        <ten_de_tai rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Kết quả áp dụng phương pháp Lichtenstein trong điều trị thoát vị bẹn tại Bệnh viện</ten_de_tai>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.semanticweb.org/zjm/ontologies/2021/10/untitled-ontology-3#BCNhienCuuKhoaHoc03 -->
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/zjm/ontologies/2021/10/untitled-ontology-3#BCNhienCuuKhoaHoc03">
+        <rdf:type rdf:resource="http://www.semanticweb.org/zjm/ontologies/2021/10/untitled-ontology-3#Dao_tao_va_nghien_cuu_khoa_hoc"/>
+        <ma_de_tai rdf:datatype="http://www.w3.org/2001/XMLSchema#int">3</ma_de_tai>
+        <noi_dung_de_tai rdf:datatype="http://www.w3.org/2001/XMLSchema#string">1. Mô tả thực trạng sử dụng máu và chế phẩm máu tại Bệnh viện đa khoa tỉnh  năm 2021.
+
+2. Đánh giá một số dấu hiệu của tai biến sớm trong truyền máu và chế phẩm máu tại Bệnh viện.</noi_dung_de_tai>
+        <ten_de_tai rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Thực trạng sử dụng máu và chế phẩm máu tại Bệnh viện</ten_de_tai>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.semanticweb.org/zjm/ontologies/2021/10/untitled-ontology-3#BCNhienCuuKhoaHoc04 -->
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/zjm/ontologies/2021/10/untitled-ontology-3#BCNhienCuuKhoaHoc04">
+        <rdf:type rdf:resource="http://www.semanticweb.org/zjm/ontologies/2021/10/untitled-ontology-3#Dao_tao_va_nghien_cuu_khoa_hoc"/>
+        <ma_de_tai rdf:datatype="http://www.w3.org/2001/XMLSchema#int">4</ma_de_tai>
+        <noi_dung_de_tai rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Xác định tỷ lệ hài lòng của người bệnh đến khám và điều trị tại Bệnh viện</noi_dung_de_tai>
+        <ten_de_tai rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Nghiên cứu sự hài lòng của người bệnh về công tác khám, chữa bệnh tại Bệnh viện</ten_de_tai>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.semanticweb.org/zjm/ontologies/2021/10/untitled-ontology-3#BCNhienCuuKhoaHoc05 -->
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/zjm/ontologies/2021/10/untitled-ontology-3#BCNhienCuuKhoaHoc05">
+        <rdf:type rdf:resource="http://www.semanticweb.org/zjm/ontologies/2021/10/untitled-ontology-3#Dao_tao_va_nghien_cuu_khoa_hoc"/>
+        <ma_de_tai rdf:datatype="http://www.w3.org/2001/XMLSchema#int">5</ma_de_tai>
+        <noi_dung_de_tai rdf:datatype="http://www.w3.org/2001/XMLSchema#string">1. Đánh giá sự thay đổi mạch, huyết áp, nhịp thở trong và sau gây tê khoang cùng bằng Lidocain phối hợp với mê tĩnh mạch bằng Fentanyl ở trẻ em để mổ tầng bụng dưới tại Bệnh viện năm 2021.
+
+2. Hiệu quả giảm đau và tác dụng không mong muốn trong và sau mổ của gây tê khoang cùng bằng Lidocain phối hợp với mê tĩnh mạch bằng Fentanyl.</noi_dung_de_tai>
+        <ten_de_tai rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Đánh giá kết quả ban đầu ứng dụng gây tê khoang cùng bằng Lidocain phối hợp với Fentanyl ở trẻ em để mổ tầng bụng dưới tại Bệnh viện</ten_de_tai>
+    </owl:NamedIndividual>
+    
+
+
     <!-- http://www.semanticweb.org/zjm/ontologies/2021/10/untitled-ontology-3#BN01 -->
 
     <owl:NamedIndividual rdf:about="http://www.semanticweb.org/zjm/ontologies/2021/10/untitled-ontology-3#BN01">
         <rdf:type rdf:resource="http://www.semanticweb.org/zjm/ontologies/2021/10/untitled-ontology-3#Benh_nhan"/>
+        <dieu_tri_tai rdf:resource="http://www.semanticweb.org/zjm/ontologies/2021/10/untitled-ontology-3#PhongBenh01"/>
+        <kham_tai rdf:resource="http://www.semanticweb.org/zjm/ontologies/2021/10/untitled-ontology-3#PhongKham01"/>
+        <nhan_thuoc rdf:resource="http://www.semanticweb.org/zjm/ontologies/2021/10/untitled-ontology-3#Thuoc1"/>
+        <nhan_thuoc rdf:resource="http://www.semanticweb.org/zjm/ontologies/2021/10/untitled-ontology-3#Thuoc2"/>
+        <dia_chi rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Ha Noi</dia_chi>
+        <nam_sinh rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">1999</nam_sinh>
         <ten rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Nguyen Van B</ten>
     </owl:NamedIndividual>
     
@@ -617,6 +693,11 @@
 
     <owl:NamedIndividual rdf:about="http://www.semanticweb.org/zjm/ontologies/2021/10/untitled-ontology-3#BN02">
         <rdf:type rdf:resource="http://www.semanticweb.org/zjm/ontologies/2021/10/untitled-ontology-3#Benh_nhan"/>
+        <dieu_tri_tai rdf:resource="http://www.semanticweb.org/zjm/ontologies/2021/10/untitled-ontology-3#PhongBenh02"/>
+        <kham_tai rdf:resource="http://www.semanticweb.org/zjm/ontologies/2021/10/untitled-ontology-3#PhongKham02"/>
+        <nhan_thuoc rdf:resource="http://www.semanticweb.org/zjm/ontologies/2021/10/untitled-ontology-3#Thuoc5"/>
+        <dia_chi rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Cao Bang</dia_chi>
+        <nam_sinh rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">1990</nam_sinh>
         <ten rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Nguyen Van A</ten>
     </owl:NamedIndividual>
     
@@ -626,6 +707,12 @@
 
     <owl:NamedIndividual rdf:about="http://www.semanticweb.org/zjm/ontologies/2021/10/untitled-ontology-3#BN03">
         <rdf:type rdf:resource="http://www.semanticweb.org/zjm/ontologies/2021/10/untitled-ontology-3#Benh_nhan"/>
+        <dieu_tri_tai rdf:resource="http://www.semanticweb.org/zjm/ontologies/2021/10/untitled-ontology-3#PhongBenh03"/>
+        <kham_tai rdf:resource="http://www.semanticweb.org/zjm/ontologies/2021/10/untitled-ontology-3#PhongKham03"/>
+        <nhan_thuoc rdf:resource="http://www.semanticweb.org/zjm/ontologies/2021/10/untitled-ontology-3#Thuoc3"/>
+        <dia_chi rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Lang Son</dia_chi>
+        <nam_sinh rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">2002</nam_sinh>
+        <ten rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Nguyen Van Vu</ten>
     </owl:NamedIndividual>
     
 
@@ -634,6 +721,12 @@
 
     <owl:NamedIndividual rdf:about="http://www.semanticweb.org/zjm/ontologies/2021/10/untitled-ontology-3#BN04">
         <rdf:type rdf:resource="http://www.semanticweb.org/zjm/ontologies/2021/10/untitled-ontology-3#Benh_nhan"/>
+        <dieu_tri_tai rdf:resource="http://www.semanticweb.org/zjm/ontologies/2021/10/untitled-ontology-3#PhongBenh04"/>
+        <kham_tai rdf:resource="http://www.semanticweb.org/zjm/ontologies/2021/10/untitled-ontology-3#PhongKham04"/>
+        <nhan_thuoc rdf:resource="http://www.semanticweb.org/zjm/ontologies/2021/10/untitled-ontology-3#Thuoc4"/>
+        <dia_chi rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Thanh Hoa</dia_chi>
+        <nam_sinh rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">1994</nam_sinh>
+        <ten rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Dinh Quoc Thang</ten>
     </owl:NamedIndividual>
     
 
@@ -642,6 +735,12 @@
 
     <owl:NamedIndividual rdf:about="http://www.semanticweb.org/zjm/ontologies/2021/10/untitled-ontology-3#BN05">
         <rdf:type rdf:resource="http://www.semanticweb.org/zjm/ontologies/2021/10/untitled-ontology-3#Benh_nhan"/>
+        <dieu_tri_tai rdf:resource="http://www.semanticweb.org/zjm/ontologies/2021/10/untitled-ontology-3#PhongBenh05"/>
+        <kham_tai rdf:resource="http://www.semanticweb.org/zjm/ontologies/2021/10/untitled-ontology-3#PhongKham05"/>
+        <nhan_thuoc rdf:resource="http://www.semanticweb.org/zjm/ontologies/2021/10/untitled-ontology-3#Thuoc5"/>
+        <dia_chi rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Nam Dinh</dia_chi>
+        <nam_sinh rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">1980</nam_sinh>
+        <ten rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Cao Minh Duc</ten>
     </owl:NamedIndividual>
     
 
@@ -650,7 +749,9 @@
 
     <owl:NamedIndividual rdf:about="http://www.semanticweb.org/zjm/ontologies/2021/10/untitled-ontology-3#BS01">
         <rdf:type rdf:resource="http://www.semanticweb.org/zjm/ontologies/2021/10/untitled-ontology-3#Nhan_vien_y_te"/>
+        <ke_don rdf:resource="http://www.semanticweb.org/zjm/ontologies/2021/10/untitled-ontology-3#DT01"/>
         <kham_benh_cho rdf:resource="http://www.semanticweb.org/zjm/ontologies/2021/10/untitled-ontology-3#BN02"/>
+        <tac_gia_cua rdf:resource="http://www.semanticweb.org/zjm/ontologies/2021/10/untitled-ontology-3#BCNhienCuuKhoaHoc01"/>
         <dia_chi rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Ha Noi</dia_chi>
         <nam_sinh rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">1990</nam_sinh>
         <sdt rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">19001234</sdt>
@@ -665,6 +766,8 @@
     <owl:NamedIndividual rdf:about="http://www.semanticweb.org/zjm/ontologies/2021/10/untitled-ontology-3#BS02">
         <rdf:type rdf:resource="http://www.semanticweb.org/zjm/ontologies/2021/10/untitled-ontology-3#Nhan_vien_y_te"/>
         <dieu_tri_cho rdf:resource="http://www.semanticweb.org/zjm/ontologies/2021/10/untitled-ontology-3#BN01"/>
+        <ke_don rdf:resource="http://www.semanticweb.org/zjm/ontologies/2021/10/untitled-ontology-3#DT02"/>
+        <tac_gia_cua rdf:resource="http://www.semanticweb.org/zjm/ontologies/2021/10/untitled-ontology-3#BCNhienCuuKhoaHoc02"/>
         <dia_chi rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Ha Noi</dia_chi>
         <nam_sinh rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">1980</nam_sinh>
         <sdt rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">19001234</sdt>
@@ -679,6 +782,8 @@
     <owl:NamedIndividual rdf:about="http://www.semanticweb.org/zjm/ontologies/2021/10/untitled-ontology-3#BS03">
         <rdf:type rdf:resource="http://www.semanticweb.org/zjm/ontologies/2021/10/untitled-ontology-3#Nhan_vien_y_te"/>
         <dieu_tri_cho rdf:resource="http://www.semanticweb.org/zjm/ontologies/2021/10/untitled-ontology-3#BN03"/>
+        <ke_don rdf:resource="http://www.semanticweb.org/zjm/ontologies/2021/10/untitled-ontology-3#DT03"/>
+        <tac_gia_cua rdf:resource="http://www.semanticweb.org/zjm/ontologies/2021/10/untitled-ontology-3#BCNhienCuuKhoaHoc03"/>
         <dia_chi rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Ha Noi</dia_chi>
         <nam_sinh rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">1970</nam_sinh>
         <sdt rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">19001234</sdt>
@@ -692,7 +797,9 @@
 
     <owl:NamedIndividual rdf:about="http://www.semanticweb.org/zjm/ontologies/2021/10/untitled-ontology-3#BS04">
         <rdf:type rdf:resource="http://www.semanticweb.org/zjm/ontologies/2021/10/untitled-ontology-3#Nhan_vien_y_te"/>
+        <ke_don rdf:resource="http://www.semanticweb.org/zjm/ontologies/2021/10/untitled-ontology-3#DT04"/>
         <kham_benh_cho rdf:resource="http://www.semanticweb.org/zjm/ontologies/2021/10/untitled-ontology-3#BN04"/>
+        <tac_gia_cua rdf:resource="http://www.semanticweb.org/zjm/ontologies/2021/10/untitled-ontology-3#BCNhienCuuKhoaHoc04"/>
         <dia_chi rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Ha Noi</dia_chi>
         <nam_sinh rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">1960</nam_sinh>
         <sdt rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">19001234</sdt>
@@ -706,12 +813,69 @@
 
     <owl:NamedIndividual rdf:about="http://www.semanticweb.org/zjm/ontologies/2021/10/untitled-ontology-3#BS05">
         <rdf:type rdf:resource="http://www.semanticweb.org/zjm/ontologies/2021/10/untitled-ontology-3#Nhan_vien_y_te"/>
+        <ke_don rdf:resource="http://www.semanticweb.org/zjm/ontologies/2021/10/untitled-ontology-3#DT05"/>
         <kham_benh_cho rdf:resource="http://www.semanticweb.org/zjm/ontologies/2021/10/untitled-ontology-3#BN05"/>
+        <tac_gia_cua rdf:resource="http://www.semanticweb.org/zjm/ontologies/2021/10/untitled-ontology-3#BCNhienCuuKhoaHoc05"/>
         <dia_chi rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Ha Noi</dia_chi>
         <nam_sinh rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">1969</nam_sinh>
         <sdt rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">19001234</sdt>
         <ten rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Do Van Viet</ten>
         <trinh_do rdf:datatype="http://www.w3.org/2001/XMLSchema#string">giao su</trinh_do>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.semanticweb.org/zjm/ontologies/2021/10/untitled-ontology-3#ChupChieu01 -->
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/zjm/ontologies/2021/10/untitled-ontology-3#ChupChieu01">
+        <rdf:type rdf:resource="http://www.semanticweb.org/zjm/ontologies/2021/10/untitled-ontology-3#Chup_chieu"/>
+        <ket_qua rdf:datatype="http://www.w3.org/2001/XMLSchema#string">xương tay bình thường</ket_qua>
+        <ma_phieu_CC rdf:datatype="http://www.w3.org/2001/XMLSchema#int">1</ma_phieu_CC>
+        <thoi_gian_thuc_hien rdf:datatype="http://www.w3.org/2001/XMLSchema#string">2021-10-21T09:00:00</thoi_gian_thuc_hien>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.semanticweb.org/zjm/ontologies/2021/10/untitled-ontology-3#ChupChieu02 -->
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/zjm/ontologies/2021/10/untitled-ontology-3#ChupChieu02">
+        <rdf:type rdf:resource="http://www.semanticweb.org/zjm/ontologies/2021/10/untitled-ontology-3#Chup_chieu"/>
+        <ket_qua rdf:datatype="http://www.w3.org/2001/XMLSchema#string">thận không thấy sỏi</ket_qua>
+        <ma_phieu_CC rdf:datatype="http://www.w3.org/2001/XMLSchema#int">2</ma_phieu_CC>
+        <thoi_gian_thuc_hien rdf:datatype="http://www.w3.org/2001/XMLSchema#string">2021-10-22T09:00:00</thoi_gian_thuc_hien>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.semanticweb.org/zjm/ontologies/2021/10/untitled-ontology-3#ChupChieu03 -->
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/zjm/ontologies/2021/10/untitled-ontology-3#ChupChieu03">
+        <rdf:type rdf:resource="http://www.semanticweb.org/zjm/ontologies/2021/10/untitled-ontology-3#Chup_chieu"/>
+        <ket_qua rdf:datatype="http://www.w3.org/2001/XMLSchema#string">gãy 2 xương sường trái</ket_qua>
+        <ma_phieu_CC rdf:datatype="http://www.w3.org/2001/XMLSchema#int">3</ma_phieu_CC>
+        <thoi_gian_thuc_hien rdf:datatype="http://www.w3.org/2001/XMLSchema#string">2021-10-23T09:00:00</thoi_gian_thuc_hien>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.semanticweb.org/zjm/ontologies/2021/10/untitled-ontology-3#ChupChieu04 -->
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/zjm/ontologies/2021/10/untitled-ontology-3#ChupChieu04">
+        <rdf:type rdf:resource="http://www.semanticweb.org/zjm/ontologies/2021/10/untitled-ontology-3#Chup_chieu"/>
+        <ket_qua rdf:datatype="http://www.w3.org/2001/XMLSchema#string">hộp sọ bình thường</ket_qua>
+        <ma_phieu_CC rdf:datatype="http://www.w3.org/2001/XMLSchema#int">4</ma_phieu_CC>
+        <thoi_gian_thuc_hien rdf:datatype="http://www.w3.org/2001/XMLSchema#string">2021-10-24T09:00:00</thoi_gian_thuc_hien>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.semanticweb.org/zjm/ontologies/2021/10/untitled-ontology-3#ChupChieu05 -->
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/zjm/ontologies/2021/10/untitled-ontology-3#ChupChieu05">
+        <rdf:type rdf:resource="http://www.semanticweb.org/zjm/ontologies/2021/10/untitled-ontology-3#Chup_chieu"/>
+        <ket_qua rdf:datatype="http://www.w3.org/2001/XMLSchema#string">nứt xương ống dồng</ket_qua>
+        <ma_phieu_CC rdf:datatype="http://www.w3.org/2001/XMLSchema#int">5</ma_phieu_CC>
+        <thoi_gian_thuc_hien rdf:datatype="http://www.w3.org/2001/XMLSchema#string">2021-10-25T09:00:00</thoi_gian_thuc_hien>
     </owl:NamedIndividual>
     
 
@@ -722,6 +886,231 @@
         <rdf:type rdf:resource="http://www.semanticweb.org/zjm/ontologies/2021/10/untitled-ontology-3#Don_thuoc"/>
         <gom_cac_loai_thuoc rdf:resource="http://www.semanticweb.org/zjm/ontologies/2021/10/untitled-ontology-3#Thuoc1"/>
         <gom_cac_loai_thuoc rdf:resource="http://www.semanticweb.org/zjm/ontologies/2021/10/untitled-ontology-3#Thuoc2"/>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.semanticweb.org/zjm/ontologies/2021/10/untitled-ontology-3#DT02 -->
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/zjm/ontologies/2021/10/untitled-ontology-3#DT02">
+        <rdf:type rdf:resource="http://www.semanticweb.org/zjm/ontologies/2021/10/untitled-ontology-3#Don_thuoc"/>
+        <gom_cac_loai_thuoc rdf:resource="http://www.semanticweb.org/zjm/ontologies/2021/10/untitled-ontology-3#Thuoc1"/>
+        <gom_cac_loai_thuoc rdf:resource="http://www.semanticweb.org/zjm/ontologies/2021/10/untitled-ontology-3#Thuoc3"/>
+        <gom_cac_loai_thuoc rdf:resource="http://www.semanticweb.org/zjm/ontologies/2021/10/untitled-ontology-3#Thuoc5"/>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.semanticweb.org/zjm/ontologies/2021/10/untitled-ontology-3#DT03 -->
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/zjm/ontologies/2021/10/untitled-ontology-3#DT03">
+        <rdf:type rdf:resource="http://www.semanticweb.org/zjm/ontologies/2021/10/untitled-ontology-3#Don_thuoc"/>
+        <gom_cac_loai_thuoc rdf:resource="http://www.semanticweb.org/zjm/ontologies/2021/10/untitled-ontology-3#Thuoc4"/>
+        <gom_cac_loai_thuoc rdf:resource="http://www.semanticweb.org/zjm/ontologies/2021/10/untitled-ontology-3#Thuoc5"/>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.semanticweb.org/zjm/ontologies/2021/10/untitled-ontology-3#DT04 -->
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/zjm/ontologies/2021/10/untitled-ontology-3#DT04">
+        <rdf:type rdf:resource="http://www.semanticweb.org/zjm/ontologies/2021/10/untitled-ontology-3#Don_thuoc"/>
+        <gom_cac_loai_thuoc rdf:resource="http://www.semanticweb.org/zjm/ontologies/2021/10/untitled-ontology-3#Thuoc2"/>
+        <gom_cac_loai_thuoc rdf:resource="http://www.semanticweb.org/zjm/ontologies/2021/10/untitled-ontology-3#Thuoc3"/>
+        <gom_cac_loai_thuoc rdf:resource="http://www.semanticweb.org/zjm/ontologies/2021/10/untitled-ontology-3#Thuoc4"/>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.semanticweb.org/zjm/ontologies/2021/10/untitled-ontology-3#DT05 -->
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/zjm/ontologies/2021/10/untitled-ontology-3#DT05">
+        <rdf:type rdf:resource="http://www.semanticweb.org/zjm/ontologies/2021/10/untitled-ontology-3#Don_thuoc"/>
+        <gom_cac_loai_thuoc rdf:resource="http://www.semanticweb.org/zjm/ontologies/2021/10/untitled-ontology-3#Thuoc1"/>
+        <gom_cac_loai_thuoc rdf:resource="http://www.semanticweb.org/zjm/ontologies/2021/10/untitled-ontology-3#Thuoc5"/>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.semanticweb.org/zjm/ontologies/2021/10/untitled-ontology-3#HoaDonVienPhi01 -->
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/zjm/ontologies/2021/10/untitled-ontology-3#HoaDonVienPhi01">
+        <rdf:type rdf:resource="http://www.semanticweb.org/zjm/ontologies/2021/10/untitled-ontology-3#Hoa_don_vien_phi"/>
+        <don_gia_dich_vu rdf:datatype="http://www.w3.org/2001/XMLSchema#double">2000000.0</don_gia_dich_vu>
+        <ma_phieu rdf:datatype="http://www.w3.org/2001/XMLSchema#string">1</ma_phieu>
+        <tien_vien_phi rdf:datatype="http://www.w3.org/2001/XMLSchema#double">1.0E7</tien_vien_phi>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.semanticweb.org/zjm/ontologies/2021/10/untitled-ontology-3#HoaDonVienPhi02 -->
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/zjm/ontologies/2021/10/untitled-ontology-3#HoaDonVienPhi02">
+        <rdf:type rdf:resource="http://www.semanticweb.org/zjm/ontologies/2021/10/untitled-ontology-3#Hoa_don_vien_phi"/>
+        <don_gia_dich_vu rdf:datatype="http://www.w3.org/2001/XMLSchema#double">3000000.0</don_gia_dich_vu>
+        <ma_phieu rdf:datatype="http://www.w3.org/2001/XMLSchema#string">2</ma_phieu>
+        <tien_vien_phi rdf:datatype="http://www.w3.org/2001/XMLSchema#double">1.2E7</tien_vien_phi>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.semanticweb.org/zjm/ontologies/2021/10/untitled-ontology-3#HoaDonVienPhi03 -->
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/zjm/ontologies/2021/10/untitled-ontology-3#HoaDonVienPhi03">
+        <rdf:type rdf:resource="http://www.semanticweb.org/zjm/ontologies/2021/10/untitled-ontology-3#Hoa_don_vien_phi"/>
+        <don_gia_dich_vu rdf:datatype="http://www.w3.org/2001/XMLSchema#double">9000000.0</don_gia_dich_vu>
+        <ma_phieu rdf:datatype="http://www.w3.org/2001/XMLSchema#string">3</ma_phieu>
+        <tien_vien_phi rdf:datatype="http://www.w3.org/2001/XMLSchema#double">1.5E7</tien_vien_phi>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.semanticweb.org/zjm/ontologies/2021/10/untitled-ontology-3#HoaDonVienPhi04 -->
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/zjm/ontologies/2021/10/untitled-ontology-3#HoaDonVienPhi04">
+        <rdf:type rdf:resource="http://www.semanticweb.org/zjm/ontologies/2021/10/untitled-ontology-3#Hoa_don_vien_phi"/>
+        <don_gia_dich_vu rdf:datatype="http://www.w3.org/2001/XMLSchema#double">1000000.0</don_gia_dich_vu>
+        <ma_phieu rdf:datatype="http://www.w3.org/2001/XMLSchema#string">4</ma_phieu>
+        <tien_vien_phi rdf:datatype="http://www.w3.org/2001/XMLSchema#double">1.8E7</tien_vien_phi>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.semanticweb.org/zjm/ontologies/2021/10/untitled-ontology-3#HoaDonVienPhi05 -->
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/zjm/ontologies/2021/10/untitled-ontology-3#HoaDonVienPhi05">
+        <rdf:type rdf:resource="http://www.semanticweb.org/zjm/ontologies/2021/10/untitled-ontology-3#Hoa_don_vien_phi"/>
+        <don_gia_dich_vu rdf:datatype="http://www.w3.org/2001/XMLSchema#double">5000000.0</don_gia_dich_vu>
+        <ma_phieu rdf:datatype="http://www.w3.org/2001/XMLSchema#string">5</ma_phieu>
+        <tien_vien_phi rdf:datatype="http://www.w3.org/2001/XMLSchema#double">9000000.0</tien_vien_phi>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.semanticweb.org/zjm/ontologies/2021/10/untitled-ontology-3#KetQuaKham01 -->
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/zjm/ontologies/2021/10/untitled-ontology-3#KetQuaKham01">
+        <rdf:type rdf:resource="http://www.semanticweb.org/zjm/ontologies/2021/10/untitled-ontology-3#Ket_qua_kham"/>
+        <chan_doan rdf:datatype="http://www.w3.org/2001/XMLSchema#string">xương tay lành lặn, đau do tụ máu bầm</chan_doan>
+        <ket_luan rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Không có vấn đề</ket_luan>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.semanticweb.org/zjm/ontologies/2021/10/untitled-ontology-3#KetQuaKham02 -->
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/zjm/ontologies/2021/10/untitled-ontology-3#KetQuaKham02">
+        <rdf:type rdf:resource="http://www.semanticweb.org/zjm/ontologies/2021/10/untitled-ontology-3#Ket_qua_kham"/>
+        <chan_doan rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Thiếu lưu lượng máu đến thận</chan_doan>
+        <ket_luan rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Uống nhiều nước kết hợp với thuốc để điều trị</ket_luan>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.semanticweb.org/zjm/ontologies/2021/10/untitled-ontology-3#KetQuaKham03 -->
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/zjm/ontologies/2021/10/untitled-ontology-3#KetQuaKham03">
+        <rdf:type rdf:resource="http://www.semanticweb.org/zjm/ontologies/2021/10/untitled-ontology-3#Ket_qua_kham"/>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.semanticweb.org/zjm/ontologies/2021/10/untitled-ontology-3#KetQuaKham04 -->
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/zjm/ontologies/2021/10/untitled-ontology-3#KetQuaKham04">
+        <rdf:type rdf:resource="http://www.semanticweb.org/zjm/ontologies/2021/10/untitled-ontology-3#Ket_qua_kham"/>
+        <chan_doan rdf:datatype="http://www.w3.org/2001/XMLSchema#string">gãy 2 xương sườn trái làm phổi bị tổn thương</chan_doan>
+        <ket_luan rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Cần phẫu thuật gấp để nối lại xương</ket_luan>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.semanticweb.org/zjm/ontologies/2021/10/untitled-ontology-3#KetQuaKham05 -->
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/zjm/ontologies/2021/10/untitled-ontology-3#KetQuaKham05">
+        <rdf:type rdf:resource="http://www.semanticweb.org/zjm/ontologies/2021/10/untitled-ontology-3#Ket_qua_kham"/>
+        <chan_doan rdf:datatype="http://www.w3.org/2001/XMLSchema#string">xương ống đồng có vết nứt nhỏ</chan_doan>
+        <ket_luan rdf:datatype="http://www.w3.org/2001/XMLSchema#string">bó bột cố định đoạn xương nứt</ket_luan>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.semanticweb.org/zjm/ontologies/2021/10/untitled-ontology-3#KetQuaXN-CC01 -->
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/zjm/ontologies/2021/10/untitled-ontology-3#KetQuaXN-CC01"/>
+    
+
+
+    <!-- http://www.semanticweb.org/zjm/ontologies/2021/10/untitled-ontology-3#KetQuaXN-CC02 -->
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/zjm/ontologies/2021/10/untitled-ontology-3#KetQuaXN-CC02"/>
+    
+
+
+    <!-- http://www.semanticweb.org/zjm/ontologies/2021/10/untitled-ontology-3#KetQuaXN-CC03 -->
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/zjm/ontologies/2021/10/untitled-ontology-3#KetQuaXN-CC03"/>
+    
+
+
+    <!-- http://www.semanticweb.org/zjm/ontologies/2021/10/untitled-ontology-3#KetQuaXN-CC04 -->
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/zjm/ontologies/2021/10/untitled-ontology-3#KetQuaXN-CC04"/>
+    
+
+
+    <!-- http://www.semanticweb.org/zjm/ontologies/2021/10/untitled-ontology-3#KetQuaXN-CC05 -->
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/zjm/ontologies/2021/10/untitled-ontology-3#KetQuaXN-CC05"/>
+    
+
+
+    <!-- http://www.semanticweb.org/zjm/ontologies/2021/10/untitled-ontology-3#Khoa01 -->
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/zjm/ontologies/2021/10/untitled-ontology-3#Khoa01">
+        <rdf:type rdf:resource="http://www.semanticweb.org/zjm/ontologies/2021/10/untitled-ontology-3#Cac_khoa_va_vien"/>
+        <ma_khoa_vien rdf:datatype="http://www.w3.org/2001/XMLSchema#int">1</ma_khoa_vien>
+        <ten_khoa_vien rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Khoa kham benh - cap cuu</ten_khoa_vien>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.semanticweb.org/zjm/ontologies/2021/10/untitled-ontology-3#Khoa02 -->
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/zjm/ontologies/2021/10/untitled-ontology-3#Khoa02">
+        <rdf:type rdf:resource="http://www.semanticweb.org/zjm/ontologies/2021/10/untitled-ontology-3#Cac_khoa_va_vien"/>
+        <ma_khoa_vien rdf:datatype="http://www.w3.org/2001/XMLSchema#int">2</ma_khoa_vien>
+        <ten_khoa_vien rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Khoa noi nhi</ten_khoa_vien>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.semanticweb.org/zjm/ontologies/2021/10/untitled-ontology-3#Khoa03 -->
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/zjm/ontologies/2021/10/untitled-ontology-3#Khoa03">
+        <rdf:type rdf:resource="http://www.semanticweb.org/zjm/ontologies/2021/10/untitled-ontology-3#Cac_khoa_va_vien"/>
+        <ma_khoa_vien rdf:datatype="http://www.w3.org/2001/XMLSchema#int">3</ma_khoa_vien>
+        <ten_khoa_vien rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Khoa phu san</ten_khoa_vien>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.semanticweb.org/zjm/ontologies/2021/10/untitled-ontology-3#Khoa04 -->
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/zjm/ontologies/2021/10/untitled-ontology-3#Khoa04">
+        <rdf:type rdf:resource="http://www.semanticweb.org/zjm/ontologies/2021/10/untitled-ontology-3#Cac_khoa_va_vien"/>
+        <ma_khoa_vien rdf:datatype="http://www.w3.org/2001/XMLSchema#int">4</ma_khoa_vien>
+        <ten_khoa_vien rdf:datatype="http://www.w3.org/2001/XMLSchema#string">khoa hoi suc cap cuu</ten_khoa_vien>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.semanticweb.org/zjm/ontologies/2021/10/untitled-ontology-3#Khoa05 -->
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/zjm/ontologies/2021/10/untitled-ontology-3#Khoa05">
+        <rdf:type rdf:resource="http://www.semanticweb.org/zjm/ontologies/2021/10/untitled-ontology-3#Cac_khoa_va_vien"/>
+        <ma_khoa_vien rdf:datatype="http://www.w3.org/2001/XMLSchema#int">5</ma_khoa_vien>
+        <ten_khoa_vien rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Khoa ngoai tong hop</ten_khoa_vien>
     </owl:NamedIndividual>
     
 
@@ -781,11 +1170,403 @@
     
 
 
+    <!-- http://www.semanticweb.org/zjm/ontologies/2021/10/untitled-ontology-3#PhongBenh01 -->
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/zjm/ontologies/2021/10/untitled-ontology-3#PhongBenh01">
+        <rdf:type rdf:resource="http://www.semanticweb.org/zjm/ontologies/2021/10/untitled-ontology-3#Phong_benh"/>
+        <ma_phong_chuc_nang rdf:datatype="http://www.w3.org/2001/XMLSchema#int">1</ma_phong_chuc_nang>
+        <so_phong rdf:datatype="http://www.w3.org/2001/XMLSchema#string">PB01</so_phong>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.semanticweb.org/zjm/ontologies/2021/10/untitled-ontology-3#PhongBenh02 -->
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/zjm/ontologies/2021/10/untitled-ontology-3#PhongBenh02">
+        <rdf:type rdf:resource="http://www.semanticweb.org/zjm/ontologies/2021/10/untitled-ontology-3#Phong_benh"/>
+        <ma_phong_chuc_nang rdf:datatype="http://www.w3.org/2001/XMLSchema#int">2</ma_phong_chuc_nang>
+        <so_phong rdf:datatype="http://www.w3.org/2001/XMLSchema#string">PB02</so_phong>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.semanticweb.org/zjm/ontologies/2021/10/untitled-ontology-3#PhongBenh03 -->
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/zjm/ontologies/2021/10/untitled-ontology-3#PhongBenh03">
+        <rdf:type rdf:resource="http://www.semanticweb.org/zjm/ontologies/2021/10/untitled-ontology-3#Phong_benh"/>
+        <ma_phong_chuc_nang rdf:datatype="http://www.w3.org/2001/XMLSchema#int">3</ma_phong_chuc_nang>
+        <so_phong rdf:datatype="http://www.w3.org/2001/XMLSchema#string">PB03</so_phong>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.semanticweb.org/zjm/ontologies/2021/10/untitled-ontology-3#PhongBenh04 -->
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/zjm/ontologies/2021/10/untitled-ontology-3#PhongBenh04">
+        <rdf:type rdf:resource="http://www.semanticweb.org/zjm/ontologies/2021/10/untitled-ontology-3#Phong_benh"/>
+        <ma_phong_chuc_nang rdf:datatype="http://www.w3.org/2001/XMLSchema#int">4</ma_phong_chuc_nang>
+        <so_phong rdf:datatype="http://www.w3.org/2001/XMLSchema#string">PB04</so_phong>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.semanticweb.org/zjm/ontologies/2021/10/untitled-ontology-3#PhongBenh05 -->
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/zjm/ontologies/2021/10/untitled-ontology-3#PhongBenh05">
+        <rdf:type rdf:resource="http://www.semanticweb.org/zjm/ontologies/2021/10/untitled-ontology-3#Phong_benh"/>
+        <ma_phong_chuc_nang rdf:datatype="http://www.w3.org/2001/XMLSchema#int">5</ma_phong_chuc_nang>
+        <so_phong rdf:datatype="http://www.w3.org/2001/XMLSchema#string">PB05</so_phong>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.semanticweb.org/zjm/ontologies/2021/10/untitled-ontology-3#PhongKham01 -->
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/zjm/ontologies/2021/10/untitled-ontology-3#PhongKham01">
+        <rdf:type rdf:resource="http://www.semanticweb.org/zjm/ontologies/2021/10/untitled-ontology-3#Phong_kham"/>
+        <ma_phong_chuc_nang rdf:datatype="http://www.w3.org/2001/XMLSchema#int">1</ma_phong_chuc_nang>
+        <so_phong rdf:datatype="http://www.w3.org/2001/XMLSchema#string">PK01</so_phong>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.semanticweb.org/zjm/ontologies/2021/10/untitled-ontology-3#PhongKham02 -->
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/zjm/ontologies/2021/10/untitled-ontology-3#PhongKham02">
+        <rdf:type rdf:resource="http://www.semanticweb.org/zjm/ontologies/2021/10/untitled-ontology-3#Phong_kham"/>
+        <ma_phong_chuc_nang rdf:datatype="http://www.w3.org/2001/XMLSchema#int">2</ma_phong_chuc_nang>
+        <so_phong rdf:datatype="http://www.w3.org/2001/XMLSchema#string">PK02</so_phong>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.semanticweb.org/zjm/ontologies/2021/10/untitled-ontology-3#PhongKham03 -->
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/zjm/ontologies/2021/10/untitled-ontology-3#PhongKham03">
+        <rdf:type rdf:resource="http://www.semanticweb.org/zjm/ontologies/2021/10/untitled-ontology-3#Phong_kham"/>
+        <ma_phong_chuc_nang rdf:datatype="http://www.w3.org/2001/XMLSchema#int">3</ma_phong_chuc_nang>
+        <so_phong rdf:datatype="http://www.w3.org/2001/XMLSchema#string">PK03</so_phong>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.semanticweb.org/zjm/ontologies/2021/10/untitled-ontology-3#PhongKham04 -->
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/zjm/ontologies/2021/10/untitled-ontology-3#PhongKham04">
+        <rdf:type rdf:resource="http://www.semanticweb.org/zjm/ontologies/2021/10/untitled-ontology-3#Phong_kham"/>
+        <ma_phong_chuc_nang rdf:datatype="http://www.w3.org/2001/XMLSchema#int">4</ma_phong_chuc_nang>
+        <so_phong rdf:datatype="http://www.w3.org/2001/XMLSchema#string">PK04</so_phong>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.semanticweb.org/zjm/ontologies/2021/10/untitled-ontology-3#PhongKham05 -->
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/zjm/ontologies/2021/10/untitled-ontology-3#PhongKham05">
+        <rdf:type rdf:resource="http://www.semanticweb.org/zjm/ontologies/2021/10/untitled-ontology-3#Phong_kham"/>
+        <ma_phong_chuc_nang rdf:datatype="http://www.w3.org/2001/XMLSchema#int">5</ma_phong_chuc_nang>
+        <so_phong rdf:datatype="http://www.w3.org/2001/XMLSchema#string">PK05</so_phong>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.semanticweb.org/zjm/ontologies/2021/10/untitled-ontology-3#PhongPhatThuoc01 -->
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/zjm/ontologies/2021/10/untitled-ontology-3#PhongPhatThuoc01">
+        <rdf:type rdf:resource="http://www.semanticweb.org/zjm/ontologies/2021/10/untitled-ontology-3#Phong_phat_thuoc"/>
+        <phat_thuoc rdf:resource="http://www.semanticweb.org/zjm/ontologies/2021/10/untitled-ontology-3#Thuoc1"/>
+        <ma_phong_chuc_nang rdf:datatype="http://www.w3.org/2001/XMLSchema#int">1</ma_phong_chuc_nang>
+        <so_phong rdf:datatype="http://www.w3.org/2001/XMLSchema#string">PPT01</so_phong>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.semanticweb.org/zjm/ontologies/2021/10/untitled-ontology-3#PhongPhatThuoc02 -->
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/zjm/ontologies/2021/10/untitled-ontology-3#PhongPhatThuoc02">
+        <rdf:type rdf:resource="http://www.semanticweb.org/zjm/ontologies/2021/10/untitled-ontology-3#Phong_phat_thuoc"/>
+        <phat_thuoc rdf:resource="http://www.semanticweb.org/zjm/ontologies/2021/10/untitled-ontology-3#Thuoc2"/>
+        <ma_phong_chuc_nang rdf:datatype="http://www.w3.org/2001/XMLSchema#int">2</ma_phong_chuc_nang>
+        <so_phong rdf:datatype="http://www.w3.org/2001/XMLSchema#string">PPT02</so_phong>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.semanticweb.org/zjm/ontologies/2021/10/untitled-ontology-3#PhongPhatThuoc03 -->
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/zjm/ontologies/2021/10/untitled-ontology-3#PhongPhatThuoc03">
+        <rdf:type rdf:resource="http://www.semanticweb.org/zjm/ontologies/2021/10/untitled-ontology-3#Phong_phat_thuoc"/>
+        <phat_thuoc rdf:resource="http://www.semanticweb.org/zjm/ontologies/2021/10/untitled-ontology-3#Thuoc3"/>
+        <ma_phong_chuc_nang rdf:datatype="http://www.w3.org/2001/XMLSchema#int">3</ma_phong_chuc_nang>
+        <so_phong rdf:datatype="http://www.w3.org/2001/XMLSchema#string">PPT03</so_phong>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.semanticweb.org/zjm/ontologies/2021/10/untitled-ontology-3#PhongPhatThuoc04 -->
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/zjm/ontologies/2021/10/untitled-ontology-3#PhongPhatThuoc04">
+        <rdf:type rdf:resource="http://www.semanticweb.org/zjm/ontologies/2021/10/untitled-ontology-3#Phong_phat_thuoc"/>
+        <phat_thuoc rdf:resource="http://www.semanticweb.org/zjm/ontologies/2021/10/untitled-ontology-3#Thuoc4"/>
+        <ma_phong_chuc_nang rdf:datatype="http://www.w3.org/2001/XMLSchema#int">4</ma_phong_chuc_nang>
+        <so_phong rdf:datatype="http://www.w3.org/2001/XMLSchema#string">PPT04</so_phong>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.semanticweb.org/zjm/ontologies/2021/10/untitled-ontology-3#PhongPhatThuoc05 -->
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/zjm/ontologies/2021/10/untitled-ontology-3#PhongPhatThuoc05">
+        <rdf:type rdf:resource="http://www.semanticweb.org/zjm/ontologies/2021/10/untitled-ontology-3#Phong_phat_thuoc"/>
+        <phat_thuoc rdf:resource="http://www.semanticweb.org/zjm/ontologies/2021/10/untitled-ontology-3#Thuoc5"/>
+        <ma_phong_chuc_nang rdf:datatype="http://www.w3.org/2001/XMLSchema#int">5</ma_phong_chuc_nang>
+        <so_phong rdf:datatype="http://www.w3.org/2001/XMLSchema#string">PPT05</so_phong>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.semanticweb.org/zjm/ontologies/2021/10/untitled-ontology-3#PhongPhauThuat01 -->
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/zjm/ontologies/2021/10/untitled-ontology-3#PhongPhauThuat01">
+        <rdf:type rdf:resource="http://www.semanticweb.org/zjm/ontologies/2021/10/untitled-ontology-3#Phong_phau_thuat"/>
+        <ma_phong_chuc_nang rdf:datatype="http://www.w3.org/2001/XMLSchema#int">1</ma_phong_chuc_nang>
+        <so_phong rdf:datatype="http://www.w3.org/2001/XMLSchema#string">PPThuat01</so_phong>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.semanticweb.org/zjm/ontologies/2021/10/untitled-ontology-3#PhongPhauThuat02 -->
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/zjm/ontologies/2021/10/untitled-ontology-3#PhongPhauThuat02">
+        <rdf:type rdf:resource="http://www.semanticweb.org/zjm/ontologies/2021/10/untitled-ontology-3#Phong_phau_thuat"/>
+        <ma_phong_chuc_nang rdf:datatype="http://www.w3.org/2001/XMLSchema#int">2</ma_phong_chuc_nang>
+        <so_phong rdf:datatype="http://www.w3.org/2001/XMLSchema#string">PPThuat02</so_phong>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.semanticweb.org/zjm/ontologies/2021/10/untitled-ontology-3#PhongPhauThuat03 -->
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/zjm/ontologies/2021/10/untitled-ontology-3#PhongPhauThuat03">
+        <rdf:type rdf:resource="http://www.semanticweb.org/zjm/ontologies/2021/10/untitled-ontology-3#Phong_phau_thuat"/>
+        <ma_phong_chuc_nang rdf:datatype="http://www.w3.org/2001/XMLSchema#int">3</ma_phong_chuc_nang>
+        <so_phong rdf:datatype="http://www.w3.org/2001/XMLSchema#string">PPThuat03</so_phong>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.semanticweb.org/zjm/ontologies/2021/10/untitled-ontology-3#PhongPhauThuat04 -->
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/zjm/ontologies/2021/10/untitled-ontology-3#PhongPhauThuat04">
+        <rdf:type rdf:resource="http://www.semanticweb.org/zjm/ontologies/2021/10/untitled-ontology-3#Phong_phau_thuat"/>
+        <ma_phong_chuc_nang rdf:datatype="http://www.w3.org/2001/XMLSchema#int">4</ma_phong_chuc_nang>
+        <so_phong rdf:datatype="http://www.w3.org/2001/XMLSchema#string">PPThuat04</so_phong>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.semanticweb.org/zjm/ontologies/2021/10/untitled-ontology-3#PhongPhauThuat05 -->
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/zjm/ontologies/2021/10/untitled-ontology-3#PhongPhauThuat05">
+        <rdf:type rdf:resource="http://www.semanticweb.org/zjm/ontologies/2021/10/untitled-ontology-3#Phong_phau_thuat"/>
+        <ma_phong_chuc_nang rdf:datatype="http://www.w3.org/2001/XMLSchema#int">5</ma_phong_chuc_nang>
+        <so_phong rdf:datatype="http://www.w3.org/2001/XMLSchema#string">PPThuat05</so_phong>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.semanticweb.org/zjm/ontologies/2021/10/untitled-ontology-3#PhongXNVaCC01 -->
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/zjm/ontologies/2021/10/untitled-ontology-3#PhongXNVaCC01">
+        <rdf:type rdf:resource="http://www.semanticweb.org/zjm/ontologies/2021/10/untitled-ontology-3#Phong_xet_nghiem_va_chup_chieu"/>
+        <ma_phong_chuc_nang rdf:datatype="http://www.w3.org/2001/XMLSchema#int">1</ma_phong_chuc_nang>
+        <so_phong rdf:datatype="http://www.w3.org/2001/XMLSchema#string">PXNVCC01</so_phong>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.semanticweb.org/zjm/ontologies/2021/10/untitled-ontology-3#PhongXNVaCC02 -->
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/zjm/ontologies/2021/10/untitled-ontology-3#PhongXNVaCC02">
+        <rdf:type rdf:resource="http://www.semanticweb.org/zjm/ontologies/2021/10/untitled-ontology-3#Phong_xet_nghiem_va_chup_chieu"/>
+        <ma_phong_chuc_nang rdf:datatype="http://www.w3.org/2001/XMLSchema#int">2</ma_phong_chuc_nang>
+        <so_phong rdf:datatype="http://www.w3.org/2001/XMLSchema#string">PXNVCC02</so_phong>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.semanticweb.org/zjm/ontologies/2021/10/untitled-ontology-3#PhongXNVaCC03 -->
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/zjm/ontologies/2021/10/untitled-ontology-3#PhongXNVaCC03">
+        <rdf:type rdf:resource="http://www.semanticweb.org/zjm/ontologies/2021/10/untitled-ontology-3#Phong_xet_nghiem_va_chup_chieu"/>
+        <ma_phong_chuc_nang rdf:datatype="http://www.w3.org/2001/XMLSchema#int">3</ma_phong_chuc_nang>
+        <so_phong rdf:datatype="http://www.w3.org/2001/XMLSchema#string">PXNVCC03</so_phong>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.semanticweb.org/zjm/ontologies/2021/10/untitled-ontology-3#PhongXNVaCC04 -->
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/zjm/ontologies/2021/10/untitled-ontology-3#PhongXNVaCC04">
+        <rdf:type rdf:resource="http://www.semanticweb.org/zjm/ontologies/2021/10/untitled-ontology-3#Phong_xet_nghiem_va_chup_chieu"/>
+        <ma_phong_chuc_nang rdf:datatype="http://www.w3.org/2001/XMLSchema#int">4</ma_phong_chuc_nang>
+        <so_phong rdf:datatype="http://www.w3.org/2001/XMLSchema#string">PXNVCC04</so_phong>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.semanticweb.org/zjm/ontologies/2021/10/untitled-ontology-3#PhongXNVaCC05 -->
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/zjm/ontologies/2021/10/untitled-ontology-3#PhongXNVaCC05">
+        <rdf:type rdf:resource="http://www.semanticweb.org/zjm/ontologies/2021/10/untitled-ontology-3#Phong_xet_nghiem_va_chup_chieu"/>
+        <ma_phong_chuc_nang rdf:datatype="http://www.w3.org/2001/XMLSchema#int">5</ma_phong_chuc_nang>
+        <so_phong rdf:datatype="http://www.w3.org/2001/XMLSchema#string">PXNVCC05</so_phong>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.semanticweb.org/zjm/ontologies/2021/10/untitled-ontology-3#PhuongTienVanChuyen01 -->
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/zjm/ontologies/2021/10/untitled-ontology-3#PhuongTienVanChuyen01">
+        <rdf:type rdf:resource="http://www.semanticweb.org/zjm/ontologies/2021/10/untitled-ontology-3#Phuong_tien_van_chuyen"/>
+        <ten_tai_san rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Kia</ten_tai_san>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.semanticweb.org/zjm/ontologies/2021/10/untitled-ontology-3#PhuongTienVanChuyen02 -->
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/zjm/ontologies/2021/10/untitled-ontology-3#PhuongTienVanChuyen02">
+        <rdf:type rdf:resource="http://www.semanticweb.org/zjm/ontologies/2021/10/untitled-ontology-3#Phuong_tien_van_chuyen"/>
+        <ten_tai_san rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Lexus</ten_tai_san>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.semanticweb.org/zjm/ontologies/2021/10/untitled-ontology-3#PhuongTienVanChuyen03 -->
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/zjm/ontologies/2021/10/untitled-ontology-3#PhuongTienVanChuyen03">
+        <rdf:type rdf:resource="http://www.semanticweb.org/zjm/ontologies/2021/10/untitled-ontology-3#Phuong_tien_van_chuyen"/>
+        <ten_tai_san rdf:datatype="http://www.w3.org/2001/XMLSchema#string">inova</ten_tai_san>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.semanticweb.org/zjm/ontologies/2021/10/untitled-ontology-3#PhuongTienVanChuyen04 -->
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/zjm/ontologies/2021/10/untitled-ontology-3#PhuongTienVanChuyen04">
+        <rdf:type rdf:resource="http://www.semanticweb.org/zjm/ontologies/2021/10/untitled-ontology-3#Phuong_tien_van_chuyen"/>
+        <ten_tai_san rdf:datatype="http://www.w3.org/2001/XMLSchema#string">fortuner</ten_tai_san>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.semanticweb.org/zjm/ontologies/2021/10/untitled-ontology-3#PhuongTienVanChuyen05 -->
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/zjm/ontologies/2021/10/untitled-ontology-3#PhuongTienVanChuyen05">
+        <rdf:type rdf:resource="http://www.semanticweb.org/zjm/ontologies/2021/10/untitled-ontology-3#Phuong_tien_van_chuyen"/>
+        <ten_tai_san rdf:datatype="http://www.w3.org/2001/XMLSchema#string">camry</ten_tai_san>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.semanticweb.org/zjm/ontologies/2021/10/untitled-ontology-3#ThietBiChoBacSi01 -->
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/zjm/ontologies/2021/10/untitled-ontology-3#ThietBiChoBacSi01">
+        <rdf:type rdf:resource="http://www.semanticweb.org/zjm/ontologies/2021/10/untitled-ontology-3#Thiet_bi_danh_cho_bac_si"/>
+        <ten_tai_san rdf:datatype="http://www.w3.org/2001/XMLSchema#string">máy đo huyết áp cơ</ten_tai_san>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.semanticweb.org/zjm/ontologies/2021/10/untitled-ontology-3#ThietBiChoBacSi02 -->
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/zjm/ontologies/2021/10/untitled-ontology-3#ThietBiChoBacSi02">
+        <rdf:type rdf:resource="http://www.semanticweb.org/zjm/ontologies/2021/10/untitled-ontology-3#Thiet_bi_danh_cho_bac_si"/>
+        <ten_tai_san rdf:datatype="http://www.w3.org/2001/XMLSchema#string">tai nghe</ten_tai_san>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.semanticweb.org/zjm/ontologies/2021/10/untitled-ontology-3#ThietBiChoBacSi03 -->
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/zjm/ontologies/2021/10/untitled-ontology-3#ThietBiChoBacSi03">
+        <rdf:type rdf:resource="http://www.semanticweb.org/zjm/ontologies/2021/10/untitled-ontology-3#Thiet_bi_danh_cho_bac_si"/>
+        <ten_tai_san rdf:datatype="http://www.w3.org/2001/XMLSchema#string">búa gõ</ten_tai_san>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.semanticweb.org/zjm/ontologies/2021/10/untitled-ontology-3#ThietBiChoBacSi04 -->
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/zjm/ontologies/2021/10/untitled-ontology-3#ThietBiChoBacSi04">
+        <rdf:type rdf:resource="http://www.semanticweb.org/zjm/ontologies/2021/10/untitled-ontology-3#Thiet_bi_danh_cho_bac_si"/>
+        <ten_tai_san rdf:datatype="http://www.w3.org/2001/XMLSchema#string">dây garo</ten_tai_san>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.semanticweb.org/zjm/ontologies/2021/10/untitled-ontology-3#ThietBiChoBacSi05 -->
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/zjm/ontologies/2021/10/untitled-ontology-3#ThietBiChoBacSi05">
+        <rdf:type rdf:resource="http://www.semanticweb.org/zjm/ontologies/2021/10/untitled-ontology-3#Thiet_bi_danh_cho_bac_si"/>
+        <ten_tai_san rdf:datatype="http://www.w3.org/2001/XMLSchema#string">kim tiêm</ten_tai_san>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.semanticweb.org/zjm/ontologies/2021/10/untitled-ontology-3#ThietBiChoBenhNhan01 -->
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/zjm/ontologies/2021/10/untitled-ontology-3#ThietBiChoBenhNhan01">
+        <rdf:type rdf:resource="http://www.semanticweb.org/zjm/ontologies/2021/10/untitled-ontology-3#Thiet_bi_danh_cho_benh_nhan"/>
+        <ten_tai_san rdf:datatype="http://www.w3.org/2001/XMLSchema#string">xe lăn</ten_tai_san>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.semanticweb.org/zjm/ontologies/2021/10/untitled-ontology-3#ThietBiChoBenhNhan02 -->
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/zjm/ontologies/2021/10/untitled-ontology-3#ThietBiChoBenhNhan02">
+        <rdf:type rdf:resource="http://www.semanticweb.org/zjm/ontologies/2021/10/untitled-ontology-3#Thiet_bi_danh_cho_benh_nhan"/>
+        <ten_tai_san rdf:datatype="http://www.w3.org/2001/XMLSchema#string">chi giả</ten_tai_san>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.semanticweb.org/zjm/ontologies/2021/10/untitled-ontology-3#ThietBiChoBenhNhan03 -->
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/zjm/ontologies/2021/10/untitled-ontology-3#ThietBiChoBenhNhan03">
+        <rdf:type rdf:resource="http://www.semanticweb.org/zjm/ontologies/2021/10/untitled-ontology-3#Thiet_bi_danh_cho_benh_nhan"/>
+        <ten_tai_san rdf:datatype="http://www.w3.org/2001/XMLSchema#string">nạng</ten_tai_san>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.semanticweb.org/zjm/ontologies/2021/10/untitled-ontology-3#ThietBiChoBenhNhan04 -->
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/zjm/ontologies/2021/10/untitled-ontology-3#ThietBiChoBenhNhan04">
+        <rdf:type rdf:resource="http://www.semanticweb.org/zjm/ontologies/2021/10/untitled-ontology-3#Thiet_bi_danh_cho_benh_nhan"/>
+        <ten_tai_san rdf:datatype="http://www.w3.org/2001/XMLSchema#string">khung tập đi</ten_tai_san>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.semanticweb.org/zjm/ontologies/2021/10/untitled-ontology-3#ThietBiChoBenhNhan05 -->
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/zjm/ontologies/2021/10/untitled-ontology-3#ThietBiChoBenhNhan05">
+        <rdf:type rdf:resource="http://www.semanticweb.org/zjm/ontologies/2021/10/untitled-ontology-3#Thiet_bi_danh_cho_benh_nhan"/>
+        <ten_tai_san rdf:datatype="http://www.w3.org/2001/XMLSchema#string">xe scooster</ten_tai_san>
+    </owl:NamedIndividual>
+    
+
+
     <!-- http://www.semanticweb.org/zjm/ontologies/2021/10/untitled-ontology-3#Thuoc1 -->
 
     <owl:NamedIndividual rdf:about="http://www.semanticweb.org/zjm/ontologies/2021/10/untitled-ontology-3#Thuoc1">
         <rdf:type rdf:resource="http://www.semanticweb.org/zjm/ontologies/2021/10/untitled-ontology-3#Thuoc"/>
+        <don_gia_thuoc rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">100000</don_gia_thuoc>
         <ten_thuoc rdf:datatype="http://www.w3.org/2001/XMLSchema#string">aspirin</ten_thuoc>
+        <xuat_xu_thuoc rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Đức</xuat_xu_thuoc>
     </owl:NamedIndividual>
     
 
@@ -794,7 +1575,87 @@
 
     <owl:NamedIndividual rdf:about="http://www.semanticweb.org/zjm/ontologies/2021/10/untitled-ontology-3#Thuoc2">
         <rdf:type rdf:resource="http://www.semanticweb.org/zjm/ontologies/2021/10/untitled-ontology-3#Thuoc"/>
+        <don_gia_thuoc rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">50000</don_gia_thuoc>
         <ten_thuoc rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Bisepton</ten_thuoc>
+        <xuat_xu_thuoc rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Anh</xuat_xu_thuoc>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.semanticweb.org/zjm/ontologies/2021/10/untitled-ontology-3#Thuoc3 -->
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/zjm/ontologies/2021/10/untitled-ontology-3#Thuoc3">
+        <rdf:type rdf:resource="http://www.semanticweb.org/zjm/ontologies/2021/10/untitled-ontology-3#Thuoc"/>
+        <don_gia_thuoc rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">200000</don_gia_thuoc>
+        <ten_thuoc rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Betadine</ten_thuoc>
+        <xuat_xu_thuoc rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Nhật bản</xuat_xu_thuoc>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.semanticweb.org/zjm/ontologies/2021/10/untitled-ontology-3#Thuoc4 -->
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/zjm/ontologies/2021/10/untitled-ontology-3#Thuoc4">
+        <rdf:type rdf:resource="http://www.semanticweb.org/zjm/ontologies/2021/10/untitled-ontology-3#Thuoc"/>
+        <don_gia_thuoc rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">150000</don_gia_thuoc>
+        <ten_thuoc rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Levothyroxine</ten_thuoc>
+        <xuat_xu_thuoc rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Mỹ</xuat_xu_thuoc>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.semanticweb.org/zjm/ontologies/2021/10/untitled-ontology-3#Thuoc5 -->
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/zjm/ontologies/2021/10/untitled-ontology-3#Thuoc5">
+        <rdf:type rdf:resource="http://www.semanticweb.org/zjm/ontologies/2021/10/untitled-ontology-3#Thuoc"/>
+        <don_gia_thuoc rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">300000</don_gia_thuoc>
+        <ten_thuoc rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Memantine</ten_thuoc>
+        <xuat_xu_thuoc rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Trung quốc</xuat_xu_thuoc>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.semanticweb.org/zjm/ontologies/2021/10/untitled-ontology-3#XetNghiem01 -->
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/zjm/ontologies/2021/10/untitled-ontology-3#XetNghiem01">
+        <ket_qua rdf:datatype="http://www.w3.org/2001/XMLSchema#string">âm tính với virus SARS-CoV-2</ket_qua>
+        <thoi_gian_thuc_hien rdf:datatype="http://www.w3.org/2001/XMLSchema#dateTime">2021-10-21T09:00:00</thoi_gian_thuc_hien>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.semanticweb.org/zjm/ontologies/2021/10/untitled-ontology-3#XetNghiem02 -->
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/zjm/ontologies/2021/10/untitled-ontology-3#XetNghiem02">
+        <ket_qua rdf:datatype="http://www.w3.org/2001/XMLSchema#string">âm tính với virus viêm gan B</ket_qua>
+        <thoi_gian_thuc_hien rdf:datatype="http://www.w3.org/2001/XMLSchema#dateTime">2021-10-22T09:00:00</thoi_gian_thuc_hien>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.semanticweb.org/zjm/ontologies/2021/10/untitled-ontology-3#XetNghiem03 -->
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/zjm/ontologies/2021/10/untitled-ontology-3#XetNghiem03">
+        <ket_qua rdf:datatype="http://www.w3.org/2001/XMLSchema#string">âm tính với virus SARS-CoV-2</ket_qua>
+        <thoi_gian_thuc_hien rdf:datatype="http://www.w3.org/2001/XMLSchema#dateTime">2021-10-23T09:00:00</thoi_gian_thuc_hien>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.semanticweb.org/zjm/ontologies/2021/10/untitled-ontology-3#XetNghiem04 -->
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/zjm/ontologies/2021/10/untitled-ontology-3#XetNghiem04">
+        <ket_qua rdf:datatype="http://www.w3.org/2001/XMLSchema#string">âm tính với  HIV</ket_qua>
+        <thoi_gian_thuc_hien rdf:datatype="http://www.w3.org/2001/XMLSchema#dateTime">2021-10-24T09:00:00</thoi_gian_thuc_hien>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.semanticweb.org/zjm/ontologies/2021/10/untitled-ontology-3#XetNghiem05 -->
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/zjm/ontologies/2021/10/untitled-ontology-3#XetNghiem05">
+        <ket_qua rdf:datatype="http://www.w3.org/2001/XMLSchema#string">âm tính với virus SARS-CoV-2</ket_qua>
+        <thoi_gian_thuc_hien rdf:datatype="http://www.w3.org/2001/XMLSchema#dateTime">2021-10-25T09:00:00</thoi_gian_thuc_hien>
     </owl:NamedIndividual>
 </rdf:RDF>
 
