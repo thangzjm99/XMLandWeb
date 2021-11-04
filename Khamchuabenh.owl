@@ -118,7 +118,6 @@
 
     <owl:DatatypeProperty rdf:about="http://www.semanticweb.org/zjm/ontologies/2021/10/untitled-ontology-3#chan_doan">
         <rdfs:domain rdf:resource="http://www.semanticweb.org/zjm/ontologies/2021/10/untitled-ontology-3#Ket_qua_kham"/>
-        <rdfs:domain rdf:resource="http://www.semanticweb.org/zjm/ontologies/2021/10/untitled-ontology-3#Ket_qua_xet_nghiem_va_chup_chieu"/>
         <rdfs:range rdf:resource="http://www.w3.org/2001/XMLSchema#string"/>
     </owl:DatatypeProperty>
     
@@ -164,7 +163,6 @@
 
     <owl:DatatypeProperty rdf:about="http://www.semanticweb.org/zjm/ontologies/2021/10/untitled-ontology-3#ket_luan">
         <rdfs:domain rdf:resource="http://www.semanticweb.org/zjm/ontologies/2021/10/untitled-ontology-3#Ket_qua_kham"/>
-        <rdfs:domain rdf:resource="http://www.semanticweb.org/zjm/ontologies/2021/10/untitled-ontology-3#Ket_qua_xet_nghiem_va_chup_chieu"/>
         <rdfs:range rdf:resource="http://www.w3.org/2001/XMLSchema#string"/>
     </owl:DatatypeProperty>
     
@@ -174,7 +172,6 @@
 
     <owl:DatatypeProperty rdf:about="http://www.semanticweb.org/zjm/ontologies/2021/10/untitled-ontology-3#ket_qua">
         <rdfs:domain rdf:resource="http://www.semanticweb.org/zjm/ontologies/2021/10/untitled-ontology-3#Ket_qua_kham"/>
-        <rdfs:domain rdf:resource="http://www.semanticweb.org/zjm/ontologies/2021/10/untitled-ontology-3#Ket_qua_xet_nghiem_va_chup_chieu"/>
         <rdfs:range rdf:resource="http://www.w3.org/2001/XMLSchema#string"/>
     </owl:DatatypeProperty>
     
@@ -1037,31 +1034,41 @@
 
     <!-- http://www.semanticweb.org/zjm/ontologies/2021/10/untitled-ontology-3#KetQuaXN-CC01 -->
 
-    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/zjm/ontologies/2021/10/untitled-ontology-3#KetQuaXN-CC01"/>
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/zjm/ontologies/2021/10/untitled-ontology-3#KetQuaXN-CC01">
+        <rdf:type rdf:resource="http://www.semanticweb.org/zjm/ontologies/2021/10/untitled-ontology-3#Ket_qua_xet_nghiem_va_chup_chieu"/>
+    </owl:NamedIndividual>
     
 
 
     <!-- http://www.semanticweb.org/zjm/ontologies/2021/10/untitled-ontology-3#KetQuaXN-CC02 -->
 
-    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/zjm/ontologies/2021/10/untitled-ontology-3#KetQuaXN-CC02"/>
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/zjm/ontologies/2021/10/untitled-ontology-3#KetQuaXN-CC02">
+        <rdf:type rdf:resource="http://www.semanticweb.org/zjm/ontologies/2021/10/untitled-ontology-3#Ket_qua_xet_nghiem_va_chup_chieu"/>
+    </owl:NamedIndividual>
     
 
 
     <!-- http://www.semanticweb.org/zjm/ontologies/2021/10/untitled-ontology-3#KetQuaXN-CC03 -->
 
-    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/zjm/ontologies/2021/10/untitled-ontology-3#KetQuaXN-CC03"/>
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/zjm/ontologies/2021/10/untitled-ontology-3#KetQuaXN-CC03">
+        <rdf:type rdf:resource="http://www.semanticweb.org/zjm/ontologies/2021/10/untitled-ontology-3#Ket_qua_xet_nghiem_va_chup_chieu"/>
+    </owl:NamedIndividual>
     
 
 
     <!-- http://www.semanticweb.org/zjm/ontologies/2021/10/untitled-ontology-3#KetQuaXN-CC04 -->
 
-    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/zjm/ontologies/2021/10/untitled-ontology-3#KetQuaXN-CC04"/>
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/zjm/ontologies/2021/10/untitled-ontology-3#KetQuaXN-CC04">
+        <rdf:type rdf:resource="http://www.semanticweb.org/zjm/ontologies/2021/10/untitled-ontology-3#Ket_qua_xet_nghiem_va_chup_chieu"/>
+    </owl:NamedIndividual>
     
 
 
     <!-- http://www.semanticweb.org/zjm/ontologies/2021/10/untitled-ontology-3#KetQuaXN-CC05 -->
 
-    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/zjm/ontologies/2021/10/untitled-ontology-3#KetQuaXN-CC05"/>
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/zjm/ontologies/2021/10/untitled-ontology-3#KetQuaXN-CC05">
+        <rdf:type rdf:resource="http://www.semanticweb.org/zjm/ontologies/2021/10/untitled-ontology-3#Ket_qua_xet_nghiem_va_chup_chieu"/>
+    </owl:NamedIndividual>
     
 
 
@@ -1118,6 +1125,7 @@
     <!-- http://www.semanticweb.org/zjm/ontologies/2021/10/untitled-ontology-3#NV01 -->
 
     <owl:NamedIndividual rdf:about="http://www.semanticweb.org/zjm/ontologies/2021/10/untitled-ontology-3#NV01">
+        <rdf:type rdf:resource="http://www.semanticweb.org/zjm/ontologies/2021/10/untitled-ontology-3#Nhan_vien_y_te"/>
         <dia_chi rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Ha Noi</dia_chi>
         <nam_sinh rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">1969</nam_sinh>
         <sdt rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">19001234</sdt>
@@ -1129,6 +1137,7 @@
     <!-- http://www.semanticweb.org/zjm/ontologies/2021/10/untitled-ontology-3#NV02 -->
 
     <owl:NamedIndividual rdf:about="http://www.semanticweb.org/zjm/ontologies/2021/10/untitled-ontology-3#NV02">
+        <rdf:type rdf:resource="http://www.semanticweb.org/zjm/ontologies/2021/10/untitled-ontology-3#Nhan_vien_y_te"/>
         <dia_chi rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Ha Noi</dia_chi>
         <nam_sinh rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">1969</nam_sinh>
         <sdt rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">19001234</sdt>
@@ -1140,6 +1149,7 @@
     <!-- http://www.semanticweb.org/zjm/ontologies/2021/10/untitled-ontology-3#NV03 -->
 
     <owl:NamedIndividual rdf:about="http://www.semanticweb.org/zjm/ontologies/2021/10/untitled-ontology-3#NV03">
+        <rdf:type rdf:resource="http://www.semanticweb.org/zjm/ontologies/2021/10/untitled-ontology-3#Nhan_vien_y_te"/>
         <dia_chi rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Ha Noi</dia_chi>
         <nam_sinh rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">1969</nam_sinh>
         <sdt rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">19001234</sdt>
@@ -1151,6 +1161,7 @@
     <!-- http://www.semanticweb.org/zjm/ontologies/2021/10/untitled-ontology-3#NV04 -->
 
     <owl:NamedIndividual rdf:about="http://www.semanticweb.org/zjm/ontologies/2021/10/untitled-ontology-3#NV04">
+        <rdf:type rdf:resource="http://www.semanticweb.org/zjm/ontologies/2021/10/untitled-ontology-3#Nhan_vien_y_te"/>
         <dia_chi rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Ha Noi</dia_chi>
         <nam_sinh rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">1969</nam_sinh>
         <sdt rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">19001234</sdt>
@@ -1162,6 +1173,7 @@
     <!-- http://www.semanticweb.org/zjm/ontologies/2021/10/untitled-ontology-3#NV05 -->
 
     <owl:NamedIndividual rdf:about="http://www.semanticweb.org/zjm/ontologies/2021/10/untitled-ontology-3#NV05">
+        <rdf:type rdf:resource="http://www.semanticweb.org/zjm/ontologies/2021/10/untitled-ontology-3#Nhan_vien_y_te"/>
         <dia_chi rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Ha Noi</dia_chi>
         <nam_sinh rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">1969</nam_sinh>
         <sdt rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">19001234</sdt>
@@ -1618,6 +1630,7 @@
     <!-- http://www.semanticweb.org/zjm/ontologies/2021/10/untitled-ontology-3#XetNghiem01 -->
 
     <owl:NamedIndividual rdf:about="http://www.semanticweb.org/zjm/ontologies/2021/10/untitled-ontology-3#XetNghiem01">
+        <rdf:type rdf:resource="http://www.semanticweb.org/zjm/ontologies/2021/10/untitled-ontology-3#Xet_nghiem"/>
         <ket_qua rdf:datatype="http://www.w3.org/2001/XMLSchema#string">âm tính với virus SARS-CoV-2</ket_qua>
         <thoi_gian_thuc_hien rdf:datatype="http://www.w3.org/2001/XMLSchema#dateTime">2021-10-21T09:00:00</thoi_gian_thuc_hien>
     </owl:NamedIndividual>
@@ -1627,6 +1640,7 @@
     <!-- http://www.semanticweb.org/zjm/ontologies/2021/10/untitled-ontology-3#XetNghiem02 -->
 
     <owl:NamedIndividual rdf:about="http://www.semanticweb.org/zjm/ontologies/2021/10/untitled-ontology-3#XetNghiem02">
+        <rdf:type rdf:resource="http://www.semanticweb.org/zjm/ontologies/2021/10/untitled-ontology-3#Xet_nghiem"/>
         <ket_qua rdf:datatype="http://www.w3.org/2001/XMLSchema#string">âm tính với virus viêm gan B</ket_qua>
         <thoi_gian_thuc_hien rdf:datatype="http://www.w3.org/2001/XMLSchema#dateTime">2021-10-22T09:00:00</thoi_gian_thuc_hien>
     </owl:NamedIndividual>
@@ -1636,6 +1650,7 @@
     <!-- http://www.semanticweb.org/zjm/ontologies/2021/10/untitled-ontology-3#XetNghiem03 -->
 
     <owl:NamedIndividual rdf:about="http://www.semanticweb.org/zjm/ontologies/2021/10/untitled-ontology-3#XetNghiem03">
+        <rdf:type rdf:resource="http://www.semanticweb.org/zjm/ontologies/2021/10/untitled-ontology-3#Xet_nghiem"/>
         <ket_qua rdf:datatype="http://www.w3.org/2001/XMLSchema#string">âm tính với virus SARS-CoV-2</ket_qua>
         <thoi_gian_thuc_hien rdf:datatype="http://www.w3.org/2001/XMLSchema#dateTime">2021-10-23T09:00:00</thoi_gian_thuc_hien>
     </owl:NamedIndividual>
@@ -1645,6 +1660,7 @@
     <!-- http://www.semanticweb.org/zjm/ontologies/2021/10/untitled-ontology-3#XetNghiem04 -->
 
     <owl:NamedIndividual rdf:about="http://www.semanticweb.org/zjm/ontologies/2021/10/untitled-ontology-3#XetNghiem04">
+        <rdf:type rdf:resource="http://www.semanticweb.org/zjm/ontologies/2021/10/untitled-ontology-3#Xet_nghiem"/>
         <ket_qua rdf:datatype="http://www.w3.org/2001/XMLSchema#string">âm tính với  HIV</ket_qua>
         <thoi_gian_thuc_hien rdf:datatype="http://www.w3.org/2001/XMLSchema#dateTime">2021-10-24T09:00:00</thoi_gian_thuc_hien>
     </owl:NamedIndividual>
@@ -1654,6 +1670,7 @@
     <!-- http://www.semanticweb.org/zjm/ontologies/2021/10/untitled-ontology-3#XetNghiem05 -->
 
     <owl:NamedIndividual rdf:about="http://www.semanticweb.org/zjm/ontologies/2021/10/untitled-ontology-3#XetNghiem05">
+        <rdf:type rdf:resource="http://www.semanticweb.org/zjm/ontologies/2021/10/untitled-ontology-3#Xet_nghiem"/>
         <ket_qua rdf:datatype="http://www.w3.org/2001/XMLSchema#string">âm tính với virus SARS-CoV-2</ket_qua>
         <thoi_gian_thuc_hien rdf:datatype="http://www.w3.org/2001/XMLSchema#dateTime">2021-10-25T09:00:00</thoi_gian_thuc_hien>
     </owl:NamedIndividual>
