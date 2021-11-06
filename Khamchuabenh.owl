@@ -22,6 +22,24 @@
     
 
 
+    <!-- http://www.semanticweb.org/zjm/ontologies/2021/10/untitled-ontology-3#bo_tri_nhan_su -->
+
+    <owl:ObjectProperty rdf:about="http://www.semanticweb.org/zjm/ontologies/2021/10/untitled-ontology-3#bo_tri_nhan_su">
+        <rdfs:domain rdf:resource="http://www.semanticweb.org/zjm/ontologies/2021/10/untitled-ontology-3#Cac_khoa_va_vien"/>
+        <rdfs:range rdf:resource="http://www.semanticweb.org/zjm/ontologies/2021/10/untitled-ontology-3#Phong_chuc_nang"/>
+    </owl:ObjectProperty>
+    
+
+
+    <!-- http://www.semanticweb.org/zjm/ontologies/2021/10/untitled-ontology-3#dao_tao -->
+
+    <owl:ObjectProperty rdf:about="http://www.semanticweb.org/zjm/ontologies/2021/10/untitled-ontology-3#dao_tao">
+        <rdfs:domain rdf:resource="http://www.semanticweb.org/zjm/ontologies/2021/10/untitled-ontology-3#Cac_khoa_va_vien"/>
+        <rdfs:range rdf:resource="http://www.semanticweb.org/zjm/ontologies/2021/10/untitled-ontology-3#Nhan_vien_y_te"/>
+    </owl:ObjectProperty>
+    
+
+
     <!-- http://www.semanticweb.org/zjm/ontologies/2021/10/untitled-ontology-3#dieu_tri_cho -->
 
     <owl:ObjectProperty rdf:about="http://www.semanticweb.org/zjm/ontologies/2021/10/untitled-ontology-3#dieu_tri_cho">
@@ -76,6 +94,25 @@
     
 
 
+    <!-- http://www.semanticweb.org/zjm/ontologies/2021/10/untitled-ontology-3#len_hoa_don -->
+
+    <owl:ObjectProperty rdf:about="http://www.semanticweb.org/zjm/ontologies/2021/10/untitled-ontology-3#len_hoa_don">
+        <rdfs:domain rdf:resource="http://www.semanticweb.org/zjm/ontologies/2021/10/untitled-ontology-3#Nhan_vien_y_te"/>
+        <rdfs:range rdf:resource="http://www.semanticweb.org/zjm/ontologies/2021/10/untitled-ontology-3#Hoa_don_vien_phi"/>
+    </owl:ObjectProperty>
+    
+
+
+    <!-- http://www.semanticweb.org/zjm/ontologies/2021/10/untitled-ontology-3#nhan_ket_qua -->
+
+    <owl:ObjectProperty rdf:about="http://www.semanticweb.org/zjm/ontologies/2021/10/untitled-ontology-3#nhan_ket_qua">
+        <rdfs:domain rdf:resource="http://www.semanticweb.org/zjm/ontologies/2021/10/untitled-ontology-3#Benh_nhan"/>
+        <rdfs:range rdf:resource="http://www.semanticweb.org/zjm/ontologies/2021/10/untitled-ontology-3#Ket_qua_kham"/>
+        <rdfs:range rdf:resource="http://www.semanticweb.org/zjm/ontologies/2021/10/untitled-ontology-3#Ket_qua_xet_nghiem_va_chup_chieu"/>
+    </owl:ObjectProperty>
+    
+
+
     <!-- http://www.semanticweb.org/zjm/ontologies/2021/10/untitled-ontology-3#nhan_thuoc -->
 
     <owl:ObjectProperty rdf:about="http://www.semanticweb.org/zjm/ontologies/2021/10/untitled-ontology-3#nhan_thuoc">
@@ -94,11 +131,63 @@
     
 
 
+    <!-- http://www.semanticweb.org/zjm/ontologies/2021/10/untitled-ontology-3#quan_ly -->
+
+    <owl:ObjectProperty rdf:about="http://www.semanticweb.org/zjm/ontologies/2021/10/untitled-ontology-3#quan_ly">
+        <rdfs:domain rdf:resource="http://www.semanticweb.org/zjm/ontologies/2021/10/untitled-ontology-3#Phong_chuc_nang"/>
+        <rdfs:range rdf:resource="http://www.semanticweb.org/zjm/ontologies/2021/10/untitled-ontology-3#Phong_benh"/>
+        <rdfs:range rdf:resource="http://www.semanticweb.org/zjm/ontologies/2021/10/untitled-ontology-3#Phong_kham"/>
+        <rdfs:range rdf:resource="http://www.semanticweb.org/zjm/ontologies/2021/10/untitled-ontology-3#Phong_phat_thuoc"/>
+        <rdfs:range rdf:resource="http://www.semanticweb.org/zjm/ontologies/2021/10/untitled-ontology-3#Phong_phau_thuat"/>
+        <rdfs:range rdf:resource="http://www.semanticweb.org/zjm/ontologies/2021/10/untitled-ontology-3#Phong_xet_nghiem_va_chup_chieu"/>
+        <rdfs:range rdf:resource="http://www.semanticweb.org/zjm/ontologies/2021/10/untitled-ontology-3#Vat_tu_va_thiet_bi_y_te"/>
+    </owl:ObjectProperty>
+    
+
+
+    <!-- http://www.semanticweb.org/zjm/ontologies/2021/10/untitled-ontology-3#su_dung -->
+
+    <owl:ObjectProperty rdf:about="http://www.semanticweb.org/zjm/ontologies/2021/10/untitled-ontology-3#su_dung">
+        <rdfs:domain rdf:resource="http://www.semanticweb.org/zjm/ontologies/2021/10/untitled-ontology-3#Nhan_vien_y_te"/>
+        <rdfs:range rdf:resource="http://www.semanticweb.org/zjm/ontologies/2021/10/untitled-ontology-3#Thiet_bi_danh_cho_bac_si"/>
+        <rdfs:range rdf:resource="http://www.semanticweb.org/zjm/ontologies/2021/10/untitled-ontology-3#Thiet_bi_danh_cho_benh_nhan"/>
+    </owl:ObjectProperty>
+    
+
+
     <!-- http://www.semanticweb.org/zjm/ontologies/2021/10/untitled-ontology-3#tac_gia_cua -->
 
     <owl:ObjectProperty rdf:about="http://www.semanticweb.org/zjm/ontologies/2021/10/untitled-ontology-3#tac_gia_cua">
         <rdfs:domain rdf:resource="http://www.semanticweb.org/zjm/ontologies/2021/10/untitled-ontology-3#Nhan_vien_y_te"/>
         <rdfs:range rdf:resource="http://www.semanticweb.org/zjm/ontologies/2021/10/untitled-ontology-3#Dao_tao_va_nghien_cuu_khoa_hoc"/>
+    </owl:ObjectProperty>
+    
+
+
+    <!-- http://www.semanticweb.org/zjm/ontologies/2021/10/untitled-ontology-3#thanh_toan -->
+
+    <owl:ObjectProperty rdf:about="http://www.semanticweb.org/zjm/ontologies/2021/10/untitled-ontology-3#thanh_toan">
+        <rdfs:domain rdf:resource="http://www.semanticweb.org/zjm/ontologies/2021/10/untitled-ontology-3#Benh_nhan"/>
+        <rdfs:range rdf:resource="http://www.semanticweb.org/zjm/ontologies/2021/10/untitled-ontology-3#Hoa_don_vien_phi"/>
+    </owl:ObjectProperty>
+    
+
+
+    <!-- http://www.semanticweb.org/zjm/ontologies/2021/10/untitled-ontology-3#tra_ket_qua -->
+
+    <owl:ObjectProperty rdf:about="http://www.semanticweb.org/zjm/ontologies/2021/10/untitled-ontology-3#tra_ket_qua">
+        <rdfs:domain rdf:resource="http://www.semanticweb.org/zjm/ontologies/2021/10/untitled-ontology-3#Nhan_vien_y_te"/>
+        <rdfs:range rdf:resource="http://www.semanticweb.org/zjm/ontologies/2021/10/untitled-ontology-3#Ket_qua_kham"/>
+        <rdfs:range rdf:resource="http://www.semanticweb.org/zjm/ontologies/2021/10/untitled-ontology-3#Ket_qua_xet_nghiem_va_chup_chieu"/>
+    </owl:ObjectProperty>
+    
+
+
+    <!-- http://www.semanticweb.org/zjm/ontologies/2021/10/untitled-ontology-3#van_hanh -->
+
+    <owl:ObjectProperty rdf:about="http://www.semanticweb.org/zjm/ontologies/2021/10/untitled-ontology-3#van_hanh">
+        <rdfs:domain rdf:resource="http://www.semanticweb.org/zjm/ontologies/2021/10/untitled-ontology-3#Nhan_vien_y_te"/>
+        <rdfs:range rdf:resource="http://www.semanticweb.org/zjm/ontologies/2021/10/untitled-ontology-3#Phong_chuc_nang"/>
     </owl:ObjectProperty>
     
 
